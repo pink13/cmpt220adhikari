@@ -18,7 +18,7 @@ public class Problem5_1
       g=in.nextInt();
       if(g==0)
       continue;
-      if(t>0)
+      if(t>0) // JA: This should had been g, not t
       {
         p++;
       }
