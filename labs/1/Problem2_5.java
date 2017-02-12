@@ -9,7 +9,7 @@ public class Problem2_5 {
         double r = input.nextDouble();
         
         //Using the formula
-        double g = r / 10;
+        double g = r / 10; // JA: Gratuity is total * rate/100
         double ttl = sttl + g;
          
         System.out.println("The gratuity is $" + g + " and total is $" + ttl);
