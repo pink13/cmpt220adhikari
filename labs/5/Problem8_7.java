@@ -30,14 +30,14 @@ public class Problem8_7 {
 		// Display result
 		System.out.println("The nearest two points are " +
 			"(" + points[p1][0] + ", " + points[p1][1] + ") and (" +
-				points[p2][0] + ", " + points[p2][1] + ")");
+				points[p2][0] + ", " + points[p2][1] + ")"); // JA: You should print z coordinate also
 	}
 
 	/** To find the distance between two points (a1, b1) and (a2, b2)*/
 	public static double distance(
 		double a1, double b1, double c1, double a2, double b2, double c2) {
 		return Math.sqrt(Math.pow(a2 - a1, 2) +  
-			Math.pow(b2 - b1, 2) + Math.pow(b2 - b1, 2));
+			Math.pow(b2 - b1, 2) + Math.pow(b2 - b1, 2)); // JA: What about c2 - c1?
 	}
 }
 
